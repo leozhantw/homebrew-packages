@@ -2,16 +2,16 @@
 class Gojira < Formula
   desc "Save your time on Jira operation through the command line."
   homepage "https://github.com/leozhantw/gojira"
-  version "1.0.0"
+  version "1.0.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/leozhantw/gojira/releases/download/v1.0.0/gojira_1.0.0_Darwin_x86_64.tar.gz"
-    sha256 "31b8e6f7709e643e38416236f307343b18a96b9834ac5e87c4560ba04974e93a"
+    url "https://github.com/leozhantw/gojira/releases/download/v1.0.1/gojira_1.0.1_Darwin_x86_64.tar.gz"
+    sha256 "851217998f10ef244fd922584bfcf5f40ac1a593795803d25a4895e7213a4781"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/leozhantw/gojira/releases/download/v1.0.0/gojira_1.0.0_Linux_x86_64.tar.gz"
-    sha256 "5bc6bf089405e38f0ddb58b3c2b904f9f4363063f087a915f9efaaeb900ffd25"
+    url "https://github.com/leozhantw/gojira/releases/download/v1.0.1/gojira_1.0.1_Linux_x86_64.tar.gz"
+    sha256 "b1da7983f61bdaa8dcebfade756192580cc18b6cc2f529b7ba5c49aef1760883"
   end
 
   def install
